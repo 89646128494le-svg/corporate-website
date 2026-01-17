@@ -1,0 +1,492 @@
+{
+  "common": {
+    "nav": {
+      "howItWorks": "How it works",
+      "points": "Points",
+      "forUsers": "For Users",
+      "forAdvertisers": "For Advertisers",
+      "forPartners": "For Partners",
+      "legal": "Legal",
+      "contacts": "Contacts",
+      "getStarted": "Get Started"
+    },
+    "footer": {
+      "navigation": "Navigation",
+      "legal": "Legal",
+      "importantInfo": "Important Information",
+      "companyInfo": "Nomad Pays is a technology platform-aggregator for interaction between advertisers, users, and partners through a system of non-monetary bonus units (Points).",
+      "disclaimer": "The platform is NOT a bank, payment system, or financial institution. Nomad Pays does not conduct banking operations, does not provide financial services, and does not manage funds. The Points system is an internal accounting unit of the platform with no monetary equivalent, cannot be exchanged for money, and is used solely for receiving bonuses and rewards from platform partners.",
+      "allRightsReserved": "All rights reserved.",
+      "companyAddress": "5 Brayford Square, London, E1 0SG, United Kingdom"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Digital rewards platform",
+      "subtitle": "Marketing infrastructure",
+      "description": "Technology platform-aggregator connecting advertisers, users, and partners through non-monetary bonus units",
+      "forUsers": "For Users",
+      "forAdvertisers": "For Advertisers"
+    },
+    "howItWorks": {
+      "title": "How Nomad Pays works",
+      "step1": "Advertisers create tasks",
+      "step1Desc": "Businesses create tasks and set Points rewards",
+      "step2": "Users complete tasks",
+      "step2Desc": "Users accept and complete tasks according to instructions",
+      "step3": "Verification by advertiser",
+      "step3Desc": "Advertisers independently verify and approve completion",
+      "step4": "Points awarded",
+      "step4Desc": "Points are automatically awarded after advertiser approval",
+      "learnMore": "Learn more"
+    },
+    "points": {
+      "title": "What are Points",
+      "warning": "Points are non-monetary bonus units. They are NOT money, NOT electronic money, and NOT cryptocurrency.",
+      "not1": "Points are NOT money and have no guaranteed value",
+      "not2": "Points are NOT refundable",
+      "not3": "All operations with Points are final",
+      "readMore": "Read full Points information"
+    },
+    "sections": {
+      "forUsersTitle": "For Users",
+      "forUsersDesc": "Complete tasks, earn Points, and use them voluntarily with partners.",
+      "forAdvertisersTitle": "For Advertisers",
+      "forAdvertisersDesc": "Create tasks, verify completion, and engage with users through Points.",
+      "forPartnersTitle": "For Partners",
+      "forPartnersDesc": "Voluntarily accept Points from users in exchange for your goods or services.",
+      "learnMore": "Learn more"
+    },
+    "why": {
+      "title": "Why Nomad Pays",
+      "transparency": "Transparency",
+      "transparencyDesc": "Clear processes and responsibilities for all participants",
+      "scalability": "Scalability",
+      "scalabilityDesc": "Technology platform designed to scale with your needs",
+      "international": "International",
+      "internationalDesc": "Serving users, advertisers, and partners globally"
+    },
+    "legal": {
+      "title": "Legal Disclaimer",
+      "text": "Nomad Pays is a technology platform-aggregator, not a bank, payment system, or financial institution. We do not store user deposits or provide financial services.",
+      "readMore": "Read full disclaimer"
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "whoDoesWhat": {
+      "title": "Who does what",
+      "text": "Nomad Pays operates as a technology platform that connects advertisers, users, and partners. Each participant has specific roles and responsibilities."
+    },
+    "responsibilities": {
+      "title": "Responsibility and roles",
+      "advertisers": "Advertisers: Create tasks, independently verify task completion, and approve or reject results. Advertisers are responsible for their tasks, content, and any payouts (if made through partners).",
+      "users": "Users: Accept and complete tasks. Points are awarded only after advertiser confirmation.",
+      "partners": "Partners: Voluntarily accept Points from users. Nomad Pays has no control over partner offerings or services.",
+      "nomadPays": "Nomad Pays: Provides the technology platform. Does not verify tasks, does not guarantee payments, and does not mediate disputes."
+    },
+    "important": {
+      "title": "Important points",
+      "item1": "Task verification is performed by advertisers, not Nomad Pays",
+      "item2": "Points are awarded only after advertiser confirmation",
+      "item3": "Disputes are resolved outside the platform",
+      "item4": "Nomad Pays does not participate in task verification or dispute resolution"
+    },
+    "notInvolved": {
+      "title": "Where the platform is not involved",
+      "text": "Nomad Pays does not verify task completion, does not guarantee payments, does not store user deposits, does not mediate disputes, and does not control partner services or offerings."
+    }
+  },
+  "points": {
+    "title": "Points",
+    "critical": {
+      "title": "CRITICALLY IMPORTANT",
+      "text": "Points are non-monetary bonus units. They are NOT money, NOT electronic money, and NOT cryptocurrency."
+    },
+    "whatNot": {
+      "title": "What Points are NOT",
+      "not1": "Points are NOT money",
+      "not2": "Points are NOT electronic money",
+      "not3": "Points are NOT cryptocurrency",
+      "not4": "Points do NOT have guaranteed value",
+      "not5": "Points are NOT refundable"
+    },
+    "whatAre": {
+      "title": "What Points are",
+      "text1": "Points are non-monetary bonus units used within the Nomad Pays platform. They represent a digital reward mechanism for completing tasks created by advertisers.",
+      "text2": "Points can be used voluntarily by partners who accept them in exchange for their goods or services. Nomad Pays does not control or guarantee the value of Points or their acceptance by partners."
+    },
+    "finality": {
+      "title": "Finality of operations",
+      "text": "All operations with Points are final. Once Points are awarded, transferred, or used, these actions cannot be reversed."
+    },
+    "noGuarantees": {
+      "title": "No guarantees",
+      "items": {
+        "item1": "The value of Points",
+        "item2": "That Points will be accepted by any partner",
+        "item3": "That Points can be exchanged for goods or services",
+        "item4": "Any specific benefits from using Points",
+        "item5": "Refunds or returns of Points"
+      }
+    },
+    "legal": {
+      "title": "Legal status",
+      "text": "Points are internal accounting units of the Nomad Pays platform. They have no monetary equivalent and cannot be exchanged for money. Nomad Pays is not a bank, payment system, or financial institution."
+    }
+  },
+  "forUsers": {
+    "title": "For Users",
+    "howToParticipate": {
+      "title": "How to participate",
+      "step1": "Download the Nomad Pays mobile application",
+      "step2": "Create an account and complete your profile",
+      "step3": "Browse available tasks from advertisers",
+      "step4": "Accept and complete tasks according to instructions",
+      "step5": "Wait for advertiser verification and approval",
+      "step6": "Receive Points after advertiser confirmation"
+    },
+    "whatYouCanDo": {
+      "title": "What you can do with Points",
+      "text1": "Points can be used voluntarily by partners who accept them.",
+      "text2": "You may be able to exchange Points for goods or services offered by partners.",
+      "text3": "Nomad Pays does not guarantee that Points will be accepted by any partner",
+      "text4": "or that Points can be exchanged for any specific goods or services."
+    },
+    "userRisks": {
+      "title": "User risks",
+      "item1": "Points have no guaranteed value",
+      "item2": "Points may not be accepted by partners",
+      "item3": "Task verification is at the advertiser's discretion",
+      "item4": "Points are non-refundable",
+      "item5": "All operations with Points are final",
+      "item6": "Disputes are resolved outside the platform"
+    },
+    "responsibility": {
+      "title": "Responsibility disclaimers",
+      "text": "Nomad Pays provides the technology platform only. We are not responsible for:",
+      "item1": "Task content created by advertisers",
+      "item2": "Verification decisions made by advertisers",
+      "item3": "Goods or services provided by partners",
+      "item4": "Disputes between users and advertisers or partners",
+      "item5": "The value or acceptance of Points by partners"
+    },
+    "importantNotice": {
+      "title": "Important notice",
+      "text": "Before using Points, please read our",
+      "and": "and",
+      "termsLink": "Terms of Service",
+      "pointsLink": "Points information page"
+    }
+  },
+  "forAdvertisers": {
+    "title": "For Advertisers",
+    "howToPost": {
+      "title": "How to post tasks",
+      "step1": "Register as an advertiser on the Nomad Pays platform",
+      "step2": "Create task descriptions with clear requirements",
+      "step3": "Set the number of Points to be awarded upon completion",
+      "step4": "Publish tasks to make them available to users",
+      "step5": "Review submitted task completions",
+      "step6": "Approve or reject completed tasks",
+      "step7": "Points are awarded automatically upon your approval"
+    },
+    "whatYouPayFor": {
+      "title": "What you pay for",
+      "text": "Advertisers pay for advertising and technical services provided by Nomad Pays. This includes:",
+      "item1": "Access to the platform and task management tools",
+      "item2": "User reach and task distribution",
+      "item3": "Technical infrastructure and support",
+      "item4": "Points issuance and tracking system"
+    },
+    "noGuarantees": {
+      "title": "What Nomad Pays does NOT guarantee",
+      "item1": "Task completion by users",
+      "item2": "Quality of task completion",
+      "item3": "Number of users who will complete your tasks",
+      "item4": "Effectiveness of advertising campaigns",
+      "item5": "Return on investment"
+    },
+    "responsibilities": {
+      "title": "Advertiser responsibilities",
+      "text": "As an advertiser, you are fully responsible for:",
+      "tasks": {
+        "title": "Tasks",
+        "text": "You are responsible for the content, legality, and accuracy of all tasks you create."
+      },
+      "verification": {
+        "title": "Verification",
+        "text": "You are responsible for independently verifying task completion. Nomad Pays does not verify tasks on your behalf."
+      },
+      "content": {
+        "title": "Content",
+        "text": "You are responsible for ensuring all task content complies with applicable laws and platform policies."
+      },
+      "payouts": {
+        "title": "Payouts (if applicable)",
+        "text": "If you make payouts to users through partners, you are solely responsible for these transactions. Nomad Pays is not involved in payouts."
+      }
+    },
+    "contact": {
+      "title": "Contact us",
+      "text": "Interested in becoming an advertiser? Contact us at:",
+      "email": "ads@nomadpays.com"
+    }
+  },
+  "forPartners": {
+    "title": "For Partners",
+    "voluntaryAcceptance": {
+      "title": "Voluntary acceptance of Points",
+      "text1": "Partners voluntarily choose to accept Points from users in exchange for their goods or services.",
+      "text2": "Acceptance of Points is entirely at the partner's discretion.",
+      "text3": "Nomad Pays does not require, mandate, or control the acceptance of Points by partners."
+    },
+    "noControl": {
+      "title": "No control by Nomad Pays",
+      "text": "Nomad Pays exercises no control over:",
+      "item1": "Which partners accept Points",
+      "item2": "What goods or services partners offer in exchange for Points",
+      "item3": "The exchange rate between Points and goods/services",
+      "item4": "Partner business practices or policies"
+    },
+    "noResponsibility": {
+      "title": "No responsibility for partner offerings",
+      "text": "Nomad Pays is not responsible for:",
+      "item1": "The quality of goods or services provided by partners",
+      "item2": "Partner business practices, policies, or terms",
+      "item3": "Disputes between users and partners",
+      "item4": "Partner compliance with laws or regulations",
+      "item5": "The value or acceptability of partner offerings"
+    },
+    "legalRelationship": {
+      "title": "Legal relationship",
+      "text1": "Partners are not part of Nomad Pays legally. They are independent entities that voluntarily participate in the platform's ecosystem.",
+      "text2": "Any transaction between a user and a partner is a direct relationship between those parties. Nomad Pays is not a party to such transactions."
+    },
+    "becomePartner": {
+      "title": "Become a partner",
+      "text": "Interested in accepting Points from users? Contact us at:",
+      "email": "partners@nomadpays.com"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "companyInfo": {
+      "title": "Company information",
+      "name": "Nomad Platforms UK LTD"
+    },
+    "contactEmails": {
+      "title": "Contact emails",
+      "advertising": "Advertising inquiries",
+      "partnership": "Partnership inquiries",
+      "general": "General information",
+      "press": "Press and media",
+      "cooperation": "Cooperation"
+    },
+    "note": "Please note: We do not provide phone support. All inquiries should be sent via email to the appropriate address listed above."
+  },
+  "legal": {
+    "legalCenter": {
+      "title": "Legal",
+      "description": "This section contains all legal documents and policies governing the use of the Nomad Pays platform.",
+      "viewDocument": "View document →",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy",
+      "disclaimer": "Disclaimer",
+      "amlCompliance": "AML / Compliance Statement"
+    },
+    "common": {
+      "backToLegal": "← Back to Legal Center",
+      "lastUpdated": "Last updated:"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "introduction": {
+        "title": "Introduction",
+        "text": "Nomad Platforms UK LTD (\"we\", \"our\", or \"us\") operates the Nomad Pays platform. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform."
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "text": "We comply with:",
+        "item1": "UK GDPR",
+        "item2": "Data Protection Act 2018",
+        "item3": "EU GDPR (where applicable)",
+        "item4": "CCPA (California Consumer Privacy Act, where applicable)"
+      },
+      "informationWeCollect": {
+        "title": "Information We Collect",
+        "text": "We may collect the following types of information:",
+        "item1": "Account information (email, phone number, name)",
+        "item2": "Usage data and platform activity",
+        "item3": "Device information",
+        "item4": "Cookies and tracking technologies"
+      },
+      "howWeUse": {
+        "title": "How We Use Your Information",
+        "text": "We use collected information to:",
+        "item1": "Provide and maintain the platform",
+        "item2": "Process transactions and award Points",
+        "item3": "Communicate with you",
+        "item4": "Improve our services",
+        "item5": "Comply with legal obligations"
+      },
+      "dataSharing": {
+        "title": "Data Sharing",
+        "text": "We do not sell your personal data. We may share information with service providers, legal authorities when required, or in connection with business transfers."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "text": "Under applicable data protection laws, you have the right to:",
+        "item1": "Access your personal data",
+        "item2": "Rectify inaccurate data",
+        "item3": "Erase your data",
+        "item4": "Restrict processing",
+        "item5": "Data portability",
+        "item6": "Object to processing"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "For privacy-related inquiries, contact us at:",
+        "email": "info@nomadpays.com"
+      }
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "text": "By accessing and using the Nomad Pays platform, you accept and agree to be bound by these Terms of Service. If you do not agree, do not use the platform."
+      },
+      "platformDescription": {
+        "title": "Platform Description",
+        "text": "Nomad Pays is a technology platform-aggregator that connects advertisers, users, and partners through a system of non-monetary bonus units (Points). Nomad Pays is not a bank, payment system, or financial institution."
+      },
+      "points": {
+        "title": "Points",
+        "text1": "Points are non-monetary bonus units. They are NOT money, electronic money, or cryptocurrency. Points have no guaranteed value and are non-refundable. All operations with Points are final.",
+        "text2": "Please review our",
+        "pointsPage": "Points page",
+        "text3": "for detailed information."
+      },
+      "userResponsibilities": {
+        "title": "User Responsibilities",
+        "item1": "Provide accurate information",
+        "item2": "Comply with all applicable laws",
+        "item3": "Accept Points at your own risk",
+        "item4": "Understand that Points have no guaranteed value"
+      },
+      "advertiserResponsibilities": {
+        "title": "Advertiser Responsibilities",
+        "item1": "Create lawful and accurate tasks",
+        "item2": "Independently verify task completion",
+        "item3": "Bear full responsibility for task content",
+        "item4": "Handle any payouts to users independently"
+      },
+      "limitationOfLiability": {
+        "title": "Limitation of Liability",
+        "text": "Nomad Pays provides the technology platform only. We are not responsible for task content, verification decisions, partner services, or disputes between users and advertisers or partners."
+      },
+      "disputeResolution": {
+        "title": "Dispute Resolution",
+        "text": "Disputes are resolved outside the platform. Nomad Pays does not mediate disputes."
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "important": {
+        "title": "IMPORTANT DISCLAIMER",
+        "text": "Nomad Pays is NOT a bank, payment system, or financial institution. We do NOT store user deposits, do NOT provide financial services, and do NOT guarantee payments."
+      },
+      "whatIs": {
+        "title": "What Nomad Pays Is",
+        "text": "Nomad Pays is a technology platform-aggregator that provides infrastructure for connecting advertisers, users, and partners through a system of non-monetary bonus units (Points)."
+      },
+      "whatIsNot": {
+        "title": "What Nomad Pays Is NOT",
+        "notBank": "Not a bank — We do not provide banking services or store deposits",
+        "notPaymentSystem": "Not a payment system — We do not process payments or handle money",
+        "notFinancialInstitution": "Not a financial institution — We do not provide financial services",
+        "notPaymentInterface": "Not a payment interface — We do not accept user money"
+      },
+      "noGuarantees": {
+        "title": "No Guarantees",
+        "text": "Nomad Pays does NOT guarantee:",
+        "item1": "The value of Points",
+        "item2": "That Points will be accepted by partners",
+        "item3": "Task completion or verification",
+        "item4": "Payment processing",
+        "item5": "Returns or refunds of Points",
+        "item6": "Any specific outcomes or benefits"
+      },
+      "pointsDisclaimer": {
+        "title": "Points Disclaimer",
+        "text1": "Points are non-monetary bonus units with no guaranteed value. They cannot be exchanged for money and all operations with Points are final. Please review our",
+        "pointsPage": "Points page",
+        "text2": "for complete information."
+      },
+      "useAtOwnRisk": {
+        "title": "Use at Your Own Risk",
+        "text": "Use of the Nomad Pays platform and Points is at your own risk. Nomad Pays is not responsible for losses or damages arising from platform use or Points transactions."
+      }
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy",
+      "whatAre": {
+        "title": "What Are Cookies",
+        "text": "Cookies are small text files stored on your device when you visit our website. They help us provide and improve our services."
+      },
+      "howWeUse": {
+        "title": "How We Use Cookies",
+        "text": "We use cookies to:",
+        "item1": "Maintain your session and preferences",
+        "item2": "Analyze website usage and performance",
+        "item3": "Provide security features",
+        "item4": "Improve user experience"
+      },
+      "cookieConsent": {
+        "title": "Cookie Consent",
+        "text": "In compliance with EU/UK regulations, we obtain your consent before placing non-essential cookies. You can manage cookie preferences in your browser settings."
+      },
+      "thirdParty": {
+        "title": "Third-Party Cookies",
+        "text": "We may use third-party services (analytics, etc.) that place their own cookies. Please refer to their privacy policies for more information."
+      }
+    },
+    "amlCompliance": {
+      "title": "AML / Compliance Statement",
+      "noLicense": {
+        "title": "No Financial Services License",
+        "text": "Nomad Pays does not hold a financial services license. We are not a bank, payment institution, or regulated financial services provider."
+      },
+      "platformNature": {
+        "title": "Platform Nature",
+        "text": "Nomad Pays operates as a technology platform that facilitates interaction between advertisers, users, and partners through non-monetary bonus units (Points). We do not handle money, process payments, or provide financial services."
+      },
+      "antiMoneyLaundering": {
+        "title": "Anti-Money Laundering",
+        "text": "While Nomad Pays is not subject to AML regulations as a non-financial platform, we implement reasonable measures to ensure platform integrity:",
+        "item1": "User verification processes",
+        "item2": "Monitoring for suspicious activity",
+        "item3": "Compliance with applicable laws",
+        "item4": "Cooperation with law enforcement when required"
+      },
+      "compliance": {
+        "title": "Compliance with Regulations",
+        "text": "Nomad Pays complies with applicable regulations including:",
+        "item1": "UK GDPR and Data Protection Act 2018",
+        "item2": "EU GDPR (where applicable)",
+        "item3": "CCPA (where applicable)",
+        "item4": "Platform policies (Apple App Store, Google Play)"
+      },
+      "noFinancialServices": {
+        "title": "No Financial Services",
+        "text": "We do not provide regulated financial services. Points are non-monetary units and do not constitute money, electronic money, or financial instruments."
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "For compliance-related inquiries, contact:",
+        "email": "info@nomadpays.com"
+      }
+    }
+  }
+}
