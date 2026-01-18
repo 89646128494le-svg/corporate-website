@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { getTranslations, type Locale } from "@/lib/i18n";
+import HowItWorksSection from "@/components/HowItWorksSection";
+import WhySection from "@/components/WhySection";
 
 export default function Home({ params }: { params: { locale: Locale } }) {
   const { locale } = params;
@@ -50,43 +52,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         </section>
 
         {/* How Nomad Pays Works */}
-        <section className="py-20 md:py-32 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-12 text-center">
-              {t.home.howItWorks.title}
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              {[
-                { step: "01", key: "step1", keyDesc: "step1Desc" },
-                { step: "02", key: "step2", keyDesc: "step2Desc" },
-                { step: "03", key: "step3", keyDesc: "step3Desc" },
-                { step: "04", key: "step4", keyDesc: "step4Desc" },
-              ].map((item) => (
-                <div key={item.step} className="text-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent-darkBlue text-white text-lg font-bold mb-4 shadow-lg">
-                    {item.step}
-                  </div>
-                  <h3 className="text-xl font-bold text-neutral-900 mb-3">
-                    {t.home.howItWorks[item.key as keyof typeof t.home.howItWorks]}
-                  </h3>
-                  <p className="text-neutral-600 leading-relaxed">
-                    {t.home.howItWorks[item.keyDesc as keyof typeof t.home.howItWorks]}
-                  </p>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <Link
-                href={`/${locale}/how-it-works`}
-                className="text-accent-darkBlue hover:text-primary-700 font-semibold text-lg"
-              >
-                {t.home.howItWorks.learnMore} →
-              </Link>
-            </div>
-          </div>
-        </section>
+        <HowItWorksSection locale={locale} />
 
         {/* What are Points */}
         <section className="py-20 md:py-32 bg-neutral-50">
@@ -182,45 +148,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         </section>
 
         {/* Why Nomad Pays */}
-        <section className="py-20 md:py-32 bg-neutral-50">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-12 text-center">
-              {t.home.why.title}
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="text-4xl mb-4">🔍</div>
-                <h3 className="text-xl font-bold text-neutral-900 mb-3">
-                  {t.home.why.transparency}
-                </h3>
-                <p className="text-neutral-600">
-                  {t.home.why.transparencyDesc}
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="text-4xl mb-4">📈</div>
-                <h3 className="text-xl font-bold text-neutral-900 mb-3">
-                  {t.home.why.scalability}
-                </h3>
-                <p className="text-neutral-600">
-                  {t.home.why.scalabilityDesc}
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="text-4xl mb-4">🌍</div>
-                <h3 className="text-xl font-bold text-neutral-900 mb-3">
-                  {t.home.why.international}
-                </h3>
-                <p className="text-neutral-600">
-                  {t.home.why.internationalDesc}
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <WhySection locale={locale} />
 
         {/* Legal Disclaimer */}
         <section className="py-20 md:py-32 bg-white">

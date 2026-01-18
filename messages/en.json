@@ -18,6 +18,12 @@
       "disclaimer": "The platform is NOT a bank, payment system, or financial institution. Nomad Pays does not conduct banking operations, does not provide financial services, and does not manage funds. The Points system is an internal accounting unit of the platform with no monetary equivalent, cannot be exchanged for money, and is used solely for receiving bonuses and rewards from platform partners.",
       "allRightsReserved": "All rights reserved.",
       "companyAddress": "5 Brayford Square, London, E1 0SG, United Kingdom"
+    },
+    "cookieBanner": {
+      "title": "We use cookies",
+      "description": "We use cookies to improve site performance and analyze traffic.",
+      "learnMore": "Learn more",
+      "accept": "Accept"
     }
   },
   "home": {

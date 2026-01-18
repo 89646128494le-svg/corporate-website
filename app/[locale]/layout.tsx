@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import AnalyticsConfig from "@/components/AnalyticsConfig";
 import LangSetter from "@/components/LangSetter";
+import CookieBanner from "@/components/CookieBanner";
 import { locales, defaultLocale, isValidLocale, type Locale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
     <>
       <LangSetter locale={locale as Locale} />
       {children}
+      <CookieBanner locale={locale as Locale} />
       <AnalyticsConfig />
     </>
   );
