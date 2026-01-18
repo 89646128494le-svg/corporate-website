@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
 
-// Раскомментируйте следующую строку после установки пакета resend
-// import { Resend } from "resend";
-// const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   try {
@@ -26,21 +25,29 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // ВРЕМЕННО: Логирование (удалите после настройки Resend)
-    console.log("Contact form submission:", {
-      name,
-      phone,
-      email,
-      message,
-      timestamp: new Date().toISOString(),
-    });
+    // Отправка email через Resend
+    if (!process.env.RESEND_API_KEY) {
+      console.error("RESEND_API_KEY не настроен в переменных окружения");
+      // В режиме разработки продолжаем без отправки email
+      if (process.env.NODE_ENV === 'development') {
+        console.log("Contact form submission (DEV - email disabled):", {
+          name,
+          phone,
+          email,
+          message,
+          timestamp: new Date().toISOString(),
+        });
+        return NextResponse.json(
+          { message: "Сообщение успешно отправлено (DEV MODE)" },
+          { status: 200 }
+        );
+      }
+      return NextResponse.json(
+        { error: "Email сервис не настроен. Обратитесь к администратору." },
+        { status: 500 }
+      );
+    }
 
-    // ============================================
-    // РАСКОММЕНТИРУЙТЕ ЭТОТ БЛОК ПОСЛЕ НАСТРОЙКИ RESEND
-    // См. подробную инструкцию в INSTRUCTION.md, раздел 6
-    // ============================================
-    
-    /*
     try {
       const { data, error } = await resend.emails.send({
         from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
@@ -82,7 +89,7 @@ export async function POST(request: NextRequest) {
                   </div>
                   <div class="field">
                     <div class="label">Сообщение:</div>
-                    <div class="value">${message.replace(/\n/g, '<br>')}</div>
+                    <div class="value">${message.replace(/\n/g, '<br>').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>
                   </div>
                 </div>
                 <div class="footer">
@@ -99,20 +106,19 @@ export async function POST(request: NextRequest) {
       if (error) {
         console.error("Resend error:", error);
         return NextResponse.json(
-          { error: "Ошибка при отправке email" },
+          { error: "Ошибка при отправке email. Попробуйте позже." },
           { status: 500 }
         );
       }
 
-      console.log("Email sent successfully:", data);
+      console.log("Email sent successfully to ads@nomadplatforms.co.uk:", data);
     } catch (emailError) {
       console.error("Error sending email:", emailError);
       return NextResponse.json(
-        { error: "Ошибка при отправке email" },
+        { error: "Ошибка при отправке email. Попробуйте позже." },
         { status: 500 }
       );
     }
-    */
 
     return NextResponse.json(
       { message: "Сообщение успешно отправлено" },

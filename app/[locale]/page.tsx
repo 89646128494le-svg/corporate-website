@@ -25,10 +25,6 @@ export default function Home({ params }: { params: { locale: Locale } }) {
             <div className="text-center">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
                 {t.home.hero.title}
-                <br />
-                <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                  {t.home.hero.subtitle}
-                </span>
               </h1>
               <p className="text-xl md:text-2xl text-neutral-300 mb-10 max-w-3xl mx-auto leading-relaxed">
                 {t.home.hero.description}
