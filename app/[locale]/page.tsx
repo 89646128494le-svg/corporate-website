@@ -4,6 +4,7 @@ import Link from "next/link";
 import { getTranslations, type Locale } from "@/lib/i18n";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import WhySection from "@/components/WhySection";
+import AppStoreBadges from "@/components/AppStoreBadges";
 
 export default function Home({ params }: { params: { locale: Locale } }) {
   const { locale } = params;
@@ -33,7 +34,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
                 {t.home.hero.description}
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
                 <Link
                   href={`/${locale}/for-users`}
                   className="px-8 py-4 bg-white text-neutral-900 font-semibold text-lg rounded-xl hover:bg-neutral-100 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -47,6 +48,8 @@ export default function Home({ params }: { params: { locale: Locale } }) {
                   {t.home.hero.forAdvertisers}
                 </Link>
               </div>
+              
+              <AppStoreBadges locale={locale} />
             </div>
           </div>
         </section>

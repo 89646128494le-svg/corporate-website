@@ -9,7 +9,7 @@ export default function ContactsPage({ params }: { params: { locale: Locale } })
   const common = t.common;
 
   const contacts = [
-    { label: content.contactEmails.advertising, email: "ads@nomadpays.com" },
+    { label: content.contactEmails.advertising, email: "ads@nomadplatforms.co.uk" },
     { label: content.contactEmails.partnership, email: "partners@nomadpays.com" },
     { label: content.contactEmails.general, email: "info@nomadpays.com" },
     { label: content.contactEmails.press, email: "pr@nomadpays.com" },

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getTranslations, type Locale } from "@/lib/i18n";
+import AdvertiserForm from "@/components/AdvertiserForm";
 
 export default function ForAdvertisersPage({ params }: { params: { locale: Locale } }) {
   const { locale } = params;
@@ -117,6 +118,11 @@ export default function ForAdvertisersPage({ params }: { params: { locale: Local
                 </p>
                 <p className="text-accent-darkBlue font-semibold">{content.contact.email}</p>
               </div>
+            </div>
+
+            {/* Contact Form */}
+            <div className="mt-12">
+              <AdvertiserForm locale={locale} />
             </div>
           </div>
         </section>

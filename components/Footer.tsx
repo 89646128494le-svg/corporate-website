@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { getTranslations, type Locale } from "@/lib/i18n";
+import AppStoreBadges from "@/components/AppStoreBadges";
 
 export default function Footer({ locale = "en" }: { locale?: Locale }) {
   const currentYear = new Date().getFullYear();
@@ -164,6 +165,17 @@ export default function Footer({ locale = "en" }: { locale?: Locale }) {
               <strong className="text-white">{t.common.footer.disclaimer.split('.')[0]}.</strong> {t.common.footer.disclaimer.split('.').slice(1).join('.').trim()}
             </p>
           </div>
+        </motion.div>
+
+        {/* App Store Badges */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.35 }}
+          className="mt-8 pt-8 border-t border-neutral-700 text-center"
+        >
+          <AppStoreBadges locale={locale} />
         </motion.div>
 
         {/* Копирайт */}
